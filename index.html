@@ -430,6 +430,8 @@ a.track .tinfo{display:flex;align-items:center;gap:clamp(12px,2.4vw,20px);min-wi
 @media (max-width:640px){ .thumb{width:56px;height:56px} a.track{flex-wrap:wrap;row-gap:10px} a.track .tinfo strong{font-size:26px} a.track:has(.thumb)>span{margin-left:68px} a.track>strong{flex:1 1 100%} }
 a.track:hover{background:var(--pink);color:#231F1B}
 a.track:hover span{border-color:#231F1B}
+.videos{margin-top:clamp(32px,5vw,52px)}
+.videos p{margin:14px 0 0;max-width:60ch;font-size:14px;color:var(--muted)}
 .bunski-more{margin-top:clamp(36px,6vw,64px)}
 .setlist{margin-top:clamp(36px,6vw,64px)}
 .setlist p{max-width:60ch;margin:0 0 18px}
@@ -535,6 +537,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
           <a class="btn" href="https://open.spotify.com/artist/40ACVTNVzzOUR5TRbd6aR0" target="_blank" rel="noopener"><span class="de">Auf Spotify hören</span><span class="en">Listen on Spotify</span></a>
           <a class="btn alt" href="mailto:simonschuett.music@gmail.com?subject=Booking-Anfrage%20Simon%20Sch%C3%BCtt"><span class="de">Booking anfragen</span><span class="en">Book Simon</span></a>
           <a class="btn alt" href="https://bunski.band/" target="_blank" rel="noopener"><span class="de">Mehr Musik: Bunski</span><span class="en">More music: Bunski</span></a>
+          <a class="btn alt" href="#videos"><span class="de">Live-Videos</span><span class="en">Live videos</span></a>
         </div>
       </div>
     </div>
@@ -584,6 +587,15 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
         <a class="btn" href="https://open.spotify.com/intl-de/artist/40ACVTNVzzOUR5TRbd6aR0" target="_blank" rel="noopener"><span class="de">Alle Songs auf Spotify</span><span class="en">All songs on Spotify</span></a>
         <a class="btn alt" href="https://music.apple.com/de/artist/simon-schuett/942188192" target="_blank" rel="noopener">Apple Music</a>
         <a class="btn alt" href="https://music.amazon.de/artists/B00XFA2HX0/simon-schuett" target="_blank" rel="noopener">Amazon Music</a>
+      </div>
+
+      <div class="videos" id="videos">
+        <h3 class="gtitle"><span class="de">Live-Videos</span><span class="en">Live videos</span></h3>
+        <div class="btns">
+          <a class="btn alt" href="https://www.youtube.com/watch?v=wwxXUEdMscQ" target="_blank" rel="noopener">The World Got Older</a>
+          <a class="btn alt" href="https://www.youtube.com/watch?v=qETO-qyt4fg" target="_blank" rel="noopener">We’re Still Friends</a>
+        </div>
+        <p><span class="de">„The World Got Older“ live in Südtirol (Vinschgau), „We’re Still Friends“ live im Schönbrunn, Wien. Die Videos öffnen sich auf YouTube.</span><span class="en">“The World Got Older” live in South Tyrol (Vinschgau), “We’re Still Friends” live at Schönbrunn, Vienna. The videos open on YouTube.</span></p>
       </div>
 
       <div class="bunski-more">
@@ -721,8 +733,8 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 2
         </ul>
       </div>
       <figure class="setup">
-        <img src="img/simon-setup.jpg" width="1050" height="1400" alt="Simons Setup in einem Pub: Akustikgitarre auf dem Ständer, Mikrofonständer, kleines Mischpult, Pedale und Monitor vor einer Regalwand" loading="lazy" decoding="async">
-        <figcaption><span class="de">Mein Setup: Gitarre, Mikrofon, kleines Pedalboard mit Stompbox und ein AER-Akustikverstärker.</span><span class="en">My setup: guitar, microphone, a small pedalboard and my AER acoustic amp.</span></figcaption>
+        <img src="img/simon-setup.jpg" width="1050" height="1400" alt="Simons Setup in einem Pub: Akustikgitarre auf dem Ständer, Mikrofonständer, kleines Mischpult, Pedale und Akustikverstärker (AER Compact 60) vor einer Regalwand" loading="lazy" decoding="async">
+        <figcaption><span class="de">Mein Setup: Gitarre, Mikrofon, kleines Pedalboard und mein Akustikverstärker (AER Compact 60).</span><span class="en">My setup: guitar, microphone, a small pedalboard and my acoustic amp (AER Compact 60).</span></figcaption>
       </figure>
     </div>
   </section>
