@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://simon-schuett.com/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-cover.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-setup.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-about.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-06.jpg</image:loc></image:image>
+    <image:image><image:loc>https://simon-schuett.com/img/simon-live-07.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://simon-schuett.com/songliste-simon-schuett.pdf</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+</urlset>
